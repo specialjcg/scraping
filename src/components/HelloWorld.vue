@@ -1,58 +1,169 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
-  </div>
+<div>
+<button @click="start()">start recherche</button>
+<button @click="start2()">contenu recherche</button>
+<div v-if="visibl" class="vue-test" id="vue-posts">
+  <h1>Vue Test</h1>
+  <ul v-for="item in posts">
+    <li>
+      <p>{{item}}</p>
+      
+      <hr />
+    </li>
+  </ul>
+</div>
+<div v-if="visibl2" class="vue-test" id="vue-posts">
+  <h1>Vue Test</h1>
+  <ul v-for="item in textdiv">
+    <li v-text="item.site"></li>
+      <p v-for="option in item.text1">{{option}}</p>
+      
+      <hr />
+   
+  </ul>
+</div>
+{{info}}
+</div>
 </template>
 
 <script>
+import axios from 'axios';
+const url = "https://www.googleapis.com/customsearch/v1?key=AIzaSyApYY9Rb5ZaVZbN-NxKNhLXhPcqL4VOFdo&cx=017707841406861961804:gopdwxkowac&filter=0&q=site sur mesure blog"
+
 export default {
   name: "HelloWorld",
-  props: {
-    msg: String
+  
+data() {
+    return {
+      visibl:false,
+       visibl2:false,
+      a:1,
+      posts: [],
+      textdiv:[],
+      errors: [],
+      info:'bonjour',
+       isConnected: false,
+      socketMessage: ''
+    }
+  },
+
+ sockets: {
+    connect() {
+      // Fired when the socket connects.
+      this.isConnected = true;
+    },
+
+    disconnect() {
+      this.isConnected = false;
+    },
+message(dmes){
+
+
+
+         this.textdiv=dmes;
+
+}
+  },
+methods:{
+convert(vm){
+for (var i=0;i<vm.items.length;i++){
+this.posts.push(vm.items[i].link);}},
+
+
+
+ start2(){
+this.visibl=false;
+   this.visibl2=true;
+
+for (var j=0;j<40;j++){
+/*url3='https://www.lafabriquedunet.fr/blog/cout-creation-site-internet/'*/
+this.$socket.emit('lancerecherche', this.posts[j]);
+/*this.$socket.emit('lancerecherche', url3);*/
+}
+
+/*axios
+      .get('/home/specialjcg/site web/scrapperso/sitesurmesure.json')
+      .then(response => (this.info = response))*/
+
+
+   
+
+},
+ async start() {
+   this.visibl=true;
+   this.visibl2=false;
+ this.$socket.emit('lanceconnect');
+this.posts=[];
+for (var i=0 ;i<4;i++){
+     var url2='';
+      if (i===0){
+ url2=url;
+
+
+      }else{
+        this.a=this.a+10
+       url2=url+"&start="+this.a;}
+     await axios
+      .get(url2)
+      .then(response => {
+        this.convert( response.data)
+      })
   }
-};
+
+
+ 
+}
+  // Fetches posts when the component is created.
+ 
+    }
+}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
+.vue-test {
+  margin: 20px auto;
+  width: 800px;
+  background: #f2f2f2;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 900;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #404040;
+    color: #404040;
+    margin-bottom: 40px;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li {
+      h1 {
+        font-weight: 400;
+        text-align: left;
+        font-size: 1.4em;
+        margin: 0;
+        padding: 0;
+        color: #505050;
+        border-bottom: none;
+      }
+      p {
+        font-weight: 300;
+        font-size: 1em;
+        line-height: 1em;
+        color: #808080;
+      }
+    }
+    hr {
+      border: 0;
+      height: 2px;
+      background: #fff;
+    }
+  }
 }
 </style>

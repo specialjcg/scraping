@@ -8,7 +8,24 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "vue": "^2.5.17"
+    "@types/ws": "^6.0.1",
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "jsonframe-cheerio": "^3.0.1",
+    "puppeteer": "^1.11.0",
+    "puppeteer-core": "^1.11.0",
+    "request": "^2.88.0",
+    "socket.io": "^2.2.0",
+    "socket.io-client": "^2.2.0",
+    "throw-max-listeners-error": "^1.0.1",
+    "uws": "^10.148.2",
+    "vue": "^2.5.17",
+    "vue-socket.io": "^3.0.4",
+    "websocket-transport": "^1.0.1",
+    "ws": "^6.1.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.2.0",
