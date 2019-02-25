@@ -1,29 +1,6 @@
 # scrapperso
 
 ## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+essaie sur le scrapping avec vuejs et nodejs en serveur
+lancement d'une recherche via duckduckgo des site parlant d'un sujet
+scrappe de tous les sites contenant une pertinence du sujet via node js et tor request
