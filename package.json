@@ -9,12 +9,10 @@
   },
   "dependencies": {
     "@types/ws": "^6.0.1",
-    "async": "^2.6.2",
     "axios": "^0.18.0",
     "body-parser": "^1.18.3",
     "cheerio": "^1.0.0-rc.2",
     "cors": "^2.8.5",
-    "deathbycaptcha": "0.0.3",
     "express": "^4.16.4",
     "fft-js": "0.0.11",
     "jsonframe-cheerio": "^3.0.1",
