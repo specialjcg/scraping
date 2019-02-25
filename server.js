@@ -126,11 +126,11 @@ const stopwordsfr = require("stopwords-fr");
 var fft = require("fft-js").fft;
 
 function comparemystring(string1, string2) {
-  string1 = string1.replace(/\n/gi, " ");
+  string1 = string1.replace(/[\n\r\s\t]+/g, " ");
   var oldString = string1.split(" ");
 
   var newString = fr.removeStopwords(oldString, stopwordsfr);
-  string2 = string2.replace(/\n/gi, " ");
+  string2 = string2.replace(/[\n\r\s\t]+/g, " ");
   oldString = string2.split(" ");
 
   const newString2 = fr.removeStopwords(oldString);
@@ -199,7 +199,6 @@ async function scrapegoogle(urlpost1, choix1) {
     ]
   });
 
-  /*data - sitekey = "6LfwuyUTAAAAAOAmoS0fdqijC2PbbdH4kjq62Y1b"*/
   const pageg = await browser1.newPage();
   await pageg.setUserAgent(
     "Mozilla / 5.0(iPhone; CPU iPhone OS 8 _3 like Mac OS X) AppleWebKit / 537.36(KHTML, like Gecko) Version / 8.0 Mobile / 12 F70 Safari / 600.1 .4(compatible; Googlebot / 2.1; + http: //www.google.com/bot.html)"
