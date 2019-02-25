@@ -3,18 +3,670 @@
 {
 
 
-"site": "http://www.e-systemes.com/live-blog/les-10-raisons-du-developpeur-pour-ne-pas-deployer-un-wordpress/1363/",
+"site": "https://www.codeur.com/blog/",
 
 
 "text1": [
 
 
 
-"L’alternative, avec un site sur mesure, c’est la compétence du développeur sur son propre code. Et c’est courament bien plus facile et de toutes les options la plus rentable que de développer des fonctionnalités spécifiques. Avec un site wordPress les clients atteignent souvent la limite des fonctionnalités bien plus tôt qu’attendu et finalement doivent recommencer à zéro.",
+" Téléchargez des CDC CDC pour stratégie inbound marketing CDC pour développement logiciel CDC pour rédaction de contenus web CDC pour traduction CDC pour stratégie social media CDC pour création site Prestashop Découvrez les métiers du web Devenir développeur web ? Devenir webmaster freelance ? Devenir Webdesigner ? Devenir consultant en référencement ? Devenir intégrateur web ? Devenir traducteur freelance ? "
+
+
+],
+
+
+"taux1": [
 
 
 
-"Le site sur mesure a pour avantage ultime de pouvoir être conçu exactement selon les nécessités du projet client, aussi sur le plan de la conception graphique. Le concepteur graphique n’a pas à se plier à des contraintes autre que celles du web en général, ni à couler les exigences de communication web du client dans des boites pré-construites. Il peut travailler vraiment à partir d’une page blanche et produire un design graphique vraiment unique et original."
+0.15384615384615385
+
+
+],
+
+
+"taux2": [
+
+
+
+0.3333333333333333
+
+
+]
+
+},
+
+{
+
+
+"site": "https://blog.octo.com/les-patterns-des-grands-du-web-les-artisans-codeurs/",
+
+
+"text1": [
+
+
+
+"Une fois le recrutement effectué, encourager l’autonomie. Le développeur n’est pas un ouvrier du code surveillé par son manager mais bien quelqu’un d’autonome qui s’engage sur de nombreux projets, en particulier sur la contribution à des projets open-source. Netflix cite ses nombreuses contributions au framework Cassandra, et étant un des premiers grands acteurs du web à l’utiliser, l’effet est doublement bénéfique, que ce soit pour y faire reconnaître ses développeurs comme pour y faire avancer son produit."
+
+
+],
+
+
+"taux1": [
+
+
+
+0.13052631578947368
+
+
+],
+
+
+"taux2": [
+
+
+
+0.3333333333333333
+
+
+]
+
+},
+
+{
+
+
+"site": "http://www.geek-directeur-technique.com/2013/05/22/un-tiers-des-developpeurs-web-devraient-changer-de-boulot",
+
+
+"text1": [
+
+
+
+"Je ne suis pour ma part pas du tout surpris de ce constat. Je l’avais du reste fait moi-même depuis longtemps. Mais on peut le décomposer dans un premier temps en évoquant la signification du terme « développeur » qui est encore pour beaucoup un fourre-tout où on trouve aussi bien des vrais développeurs capables d’élaborer du code à partir d’une page blanche que des intégrateurs tout juste capables de lire un code existant pour arriver tant bien que mal à modifier des templates afin de personnaliser une application. Ces derniers doivent assez volontiers se croire développeurs après avoir réussi à déployer un Joomla en oubliant jusqu’à l’idée même d’ouvrir un peu le code et en se contentant de remplir le formulaire d’installation…",
+
+
+
+"@Guillaume: Je ne suis pas de ton avis, souvent, le développeur n’a pas le dernier mot en terme de délais de développement, le business met la pression (après cela dépend du type de boite, il y a aussi des D.S.I qui ont la vie facile). Partant du postulat, qu’un gros projet c’est 50% d’analyse, 20 % de développement et 30% de test, si les délais sont trop courts fatalement la phase d’analyse va être bâclée avec les conséquence que cela apporte à la qualité du code. Bien coder ne s’arrête pas pour moi à utiliser la bonne syntaxe ou les bonnes fonctions, bien coder pour moi c’est faire du joli code, du code propre, c’est-à-dire un code évolutif, facilement maintenable, une application bien structurée et bien pensée. ",
+
+
+
+"Concernant ce que tu disais sur le test papier, je suis entièrement d’accord avec toi. Cela fait 2 ans que je ne suis plus étudiante et plus d’un an que je travaille, et je continue à écrire régulièrement des bout de code ou de requêtes sur mes brouillons pour y voir plus clair. C’est tout de même la base de ce qu’on apprend au début d’un cursus de développeur ! Si on n’est pas capable de faire un algorithme simple sur papier, on ne sera jamais capable de coder un projet complexe sur PC.",
+
+
+
+" « Bien coder ne s’arrête pas pour moi à utiliser la bonne syntaxe ou les bonnes fonctions, bien coder pour moi c’est faire du joli code, du code propre, c’est-à-dire un code évolutif, facilement maintenable, une application bien structurée et bien pensée. » On est d’accord la dessus 🙂 Pour le reste, je suis développeur et bâcler un projet juste pour satisfaire le market, ou même mon patron je ne suis pas d’accord. Car effectivement le projet sera en PROD dans les délais, mais les coûts en RUN seront énormes, et c’est le DEV qui va se prendre la tête au niveau de l’évolution du produit … Bon quoi qu’il en soit ce n’est pas le sujet principal :p "
+
+
+],
+
+
+"taux1": [
+
+
+
+0.10381679389312977,
+
+
+
+0.10393700787401575,
+
+
+
+0.13729977116704806,
+
+
+
+0.11188811188811189
+
+
+],
+
+
+"taux2": [
+
+
+
+0.3333333333333333,
+
+
+
+0.3333333333333333,
+
+
+
+0.3333333333333333,
+
+
+
+0.3333333333333333
+
+
+]
+
+},
+
+{
+
+
+"site": "https://codingly.com/2008/12/29/degage-sale-programmeur/",
+
+
+"text1": [
+
+
+
+"En France, parmi d’autres syndromes (notamment du jeunisme exacerbé), il y a le syndrome du chef, l’ultime et unique but de toute vie. Dans les pays anglophones, c’est moins prononcé, le développeur aura très certainement une meilleure reconnaissance que l’ouvrier du code qu’on peut avoir en France. Personnellement, je préfère dire « chargé de projets », cela inclut, mettre les doigts dans le cambouis, même si le le terme « chef de projet » est bien plus compréhensible pour le commun des mortels (et puis y’a CHEF).",
+
+
+
+"Effectivement, c’est pas très bien vu d’etre développeur et ca semble venir dès l’entrée en école d’ingénieur. Cett image vient probablement des methodologies de dev archaïques ou il y avait les cerveaux qui spécifiaient tout, et les ptites mains qui tappaient le code. Mais ca fait longtemps que ca ne fonctionne plus comme ça, et tout le monde participe à l’élaboration de l’ensemble. Je suis architecte dans la boite où je bosse, mais je met en place l’architecture en écrivant une bonne quantité de code chaque jour. Comme ca, si mes décisions ne sont pas bonnes, je suis le premier à m’en appercevoir.",
+
+
+
+"Je suis typiquement un développeur contraint de faire un peu de gestion de projet pour décharger le responsable de production (ouais, on est 10, mais y’a une hiérarchie de malade, on se croirait chez Cap Gemini ou autre…) et franchement : je préfère 1000 fois « pisser du code » PHP que de rédiger du baratin inutilisable sous Word (si encore je pouvais utiliser LaTeX pour faire les cahiers de spécifications, je trouverais ça cool, mais tout le monde doit être en mesure de modifier alors Word c’est mieux – no comment car autre débat).",
+
+
+
+"Dans beaucoup de SSII ou grosses boites (mêmes des éditeurs), le développeur « pisseur de code » est l’équivalent de la blouse bleue, et s’il persiste dans cette activité plus de quelques années (ou a dépassé un certain âge), il pourra être qualifié de « geek/nerd » et/ou « manquant d’ambition ». Ce dernier point n’est d’ailleurs pas tout à fait faux, puisque c’est très rare de pouvoir évoluer professionnellement (comprendre « décoller niveau bouznoufs ») sur ce genre d’activité. Du moins chez nous.",
+
+
+
+"alors c’est quoi ta réponse pour » ils se retrouvent à devoir maintenir des applications plus ou moins monstrueuses, sans vraiment comprendre ce qu’ils font et sans avoir envie d’ailleurs d’en comprendre plus. » c’est la réalité de mon travail ,je suis développeur Web pourquoi je doit avoir envie de comprendre plus c’est pas mon travail on paye pour pisser du code c’est toi je suis pas chef de projet",
+
+
+
+"Pisseur de code , le terme me fait bien rire …. cela n ‘existe pas en maintenance applicative , car la maintenance applicative d’une très grosse application nécessite souvent un diagnostic fastidieux et approfondi avant de dénicher le bug (technique et surtout fonctionnel qui est très profond ) , je pense même qu’un développeur responsable de la maintenance applicative se doit d’ être au moins aussi compétent que l’architecte de l’ application , voir meilleur que lui car il est là pour corriger toutes les conneries commises par l’ancienne équipe de développeurs qui ont créés l’application.",
+
+
+
+" Nico said, on août 2, 2009 at 4:26 Excellent article qui me fait un bien fou !! Je suis typiquement un développeur contraint de faire un peu de gestion de projet pour décharger le responsable de production (ouais, on est 10, mais y’a une hiérarchie de malade, on se croirait chez Cap Gemini ou autre…) et franchement : je préfère 1000 fois « pisser du code » PHP que de rédiger du baratin inutilisable sous Word (si encore je pouvais utiliser LaTeX pour faire les cahiers de spécifications, je trouverais ça cool, mais tout le monde doit être en mesure de modifier alors Word c’est mieux – no comment car autre débat). Encore merci pour la qualité de ta rédaction et ce sujet fort intéressant ! Réponse ",
+
+
+
+" Julien said, on février 17, 2010 at 12:31 Salut, j’ai bien aimé ton blog! Perso je fus un de ces « managers » de SSII pendant un an, après être sorti d’école d’ingé. Et franchement, les boss parlent bien de « pisseur de code », de « codeur fou »..bref, j’avais juste envie de leur dire « hé les gars, ce développeur à un cerveau et puis c’est pas facile de faire du bon dèv.. ». De toute façon, et pour avoir été de l’autre côté de la barrière, les SSII prennent trop les ingés pour des cons. Ils mentent sans cesse, à ne plus s’en rendre compte. Un conseil pour tous les ingénieurs : fuyez les SSII. Réponse ",
+
+
+
+" Laurent said, on mars 10, 2013 at 10:36 Bonsoir, Sans aucun sous-entendu péjoratif, si pour toi être développeur c’est « pisser du code 8 heures par jour », « se casser la tête à débugger un code qui ne marche pas », et si tu es agacé de voir un chef de projet gagner plus, alors effectivement il est temps de changer de métier. Il est possible que tu devienne un très bon chef de projet, mais ce sera, comme développeur qui devient très bon, au prix d’un travail acharné et de longue haleine. Je te souhaite bon courage. Réponse ",
+
+
+
+" adel said, on mars 19, 2013 at 10:35 alors c’est quoi ta réponse pour » ils se retrouvent à devoir maintenir des applications plus ou moins monstrueuses, sans vraiment comprendre ce qu’ils font et sans avoir envie d’ailleurs d’en comprendre plus. » c’est la réalité de mon travail ,je suis développeur Web pourquoi je doit avoir envie de comprendre plus c’est pas mon travail on paye pour pisser du code c’est toi je suis pas chef de projet Réponse "
+
+
+],
+
+
+"taux1": [
+
+
+
+0.1271186440677966,
+
+
+
+0.12915129151291513,
+
+
+
+0.13278008298755187,
+
+
+
+0.12636165577342048,
+
+
+
+0.16129032258064516,
+
+
+
+0.11873840445269017,
+
+
+
+0.10749185667752444,
+
+
+
+0.12121212121212122,
+
+
+
+0.11965811965811966,
+
+
+
+0.14705882352941177
+
+
+],
+
+
+"taux2": [
+
+
+
+0.3333333333333333,
+
+
+
+0.3333333333333333,
+
+
+
+0.3333333333333333,
+
+
+
+0.3333333333333333,
+
+
+
+0.3333333333333333,
+
+
+
+0.3333333333333333,
+
+
+
+0.3333333333333333,
+
+
+
+0.3333333333333333,
+
+
+
+0.3333333333333333,
+
+
+
+0.3333333333333333
+
+
+]
+
+},
+
+{
+
+
+"site": "http://www.ludovic.org/xwiki/bin/view/Blog/Liste+des+100+developpeurs+de+Tariq+Krim",
+
+
+"text1": [
+
+
+
+"Il est bien évident que beaucoup de personnes bien plus méritantes que moi n'y sont pas car moins visibles pour Tariq, à commencer par Vincent Massol, le CTO d'XWiki, contributeur Open Source avant XWiki, ayant contribué à Maven et ayant crée Cargo et Cactus, auteur de livres sur Maven et JUnit,bien plus développeur que moi qui après avoir crée XWiki passe plus de temps à le faire connaître ou à aider les entreprises à l'utiliser, même si ma passion du code est toujours la et je suis un des développeurs les plus actifs sur les extensions (Applications, XWiki Mobile, etc..)."
+
+
+],
+
+
+"taux1": [
+
+
+
+0.11946050096339114
+
+
+],
+
+
+"taux2": [
+
+
+
+0.3333333333333333
+
+
+]
+
+},
+
+{
+
+
+"site": "https://www.webecom-formation.com/blog.html",
+
+
+"text1": [
+
+
+
+"De la création de la maquette en passant par l'étude UX et UI et à l'intégration ainsi que le développement de fonctionnalités personnalisées, nous proposons également des solutions de type flipbook (magazines interactifs), mais aussi du référencement, des audits de sites existants, la création de newsletters, la gestion des réseaux sociaux... Nous sommes toujours curieux et en veille sur les dernières technologies et, grâce à la formation Web que j'ai suivie, je peux désormais m'auto-former et aborder de nouveaux langages de programmation. nous proposons également chaque mercredi, sur notre blog un article sur l'actualité des métiers du web et du design. http://www.webbyced.com"
+
+
+],
+
+
+"taux1": [
+
+
+
+0.10897435897435898
+
+
+],
+
+
+"taux2": [
+
+
+
+0.3333333333333333
+
+
+]
+
+},
+
+{
+
+
+"site": "https://3wa.fr/",
+
+
+"text1": [
+
+
+
+" Devenez un véritable développeur Javascript et PHP Mois 0 Mise à niveau gratuite et sans engagement en commençant par une introduction à HTML 400 heures de cours répartis sur 57 jours Le programme de formation couvre les 5 technologies web les plus utilisées sur le web : HTML, CSS, JavaScript, PHP, SQL Certification RNCP Les élèves ont pu devenir de véritables développeurs web En activité À la 3W Agency, salarié en entreprise, en free-lance, en création de startup En savoir plus "
+
+
+],
+
+
+"taux1": [
+
+
+
+0.14058956916099774
+
+
+],
+
+
+"taux2": [
+
+
+
+0.3333333333333333
+
+
+]
+
+},
+
+{
+
+
+"site": "https://www.lewagon.com/fr/bordeaux",
+
+
+"text1": [
+
+
+
+" Modes de financement disponibles en France La formation du Wagon délivre une certification de « Concepteur - développeur d’applications web », enregistrée au RNCP. Cela veut dire qu’elle est éligible au CPF. Si vous savez déjà comment fonctionne le CPF, vous aurez simplement besoin de notre code pour déposer votre dossier : 247187. Sinon, nous avons écrit un petit article à ce sujet. La formation full-stack du Wagon est également inscrite sur Datadock, ce qui vous permet de faire appel à des financements à travers les OPCA. N’hésitez pas à nous contacter pour que nous puissions vous accompagner dans vos recherches de financement ! "
+
+
+],
+
+
+"taux1": [
+
+
+
+0.1082024432809773
+
+
+],
+
+
+"taux2": [
+
+
+
+0.3333333333333333
+
+
+]
+
+},
+
+{
+
+
+"site": "https://www.404works.com/",
+
+
+"text1": [
+
+
+
+" Communication et marketing Spécialistes du marketing et de la comminucation pour vos campagnes. Design et création Créatifs de l'image fixe et animée, du son, de la mode... pour tous vos projets. Editorial, rédaction et SEO Rédacteurs et spécialistes du référecement pour supports print et web. Développement et programmation Experts en code pour vos projets de sites, d'applications et de logiciels. "
+
+
+],
+
+
+"taux1": [
+
+
+
+0.158311345646438
+
+
+],
+
+
+"taux2": [
+
+
+
+0.3333333333333333
+
+
+]
+
+},
+
+{
+
+
+"site": "https://blog.developpez.com/maximepalmisano/p10264/divers/qu_est_ce_qu_un_bon_developpeur",
+
+
+"text1": [
+
+
+
+"Un dernier point qui rejoint également celui là est la méthodologie. Pareillement, ce point est bien (trop ?) souvent oublié à mon gout. A une époque où les méthodes agiles sont incontournables, la méthodologie du développeur se doit d’être travaillée et réfléchie. Un développeur ne peut se permettre d’organiser son code n’importe comment, de nommer ses variables d’un nom incompréhensible et de faire d’innombrables horreurs qu’il est donné de voir bien trop souvent."
+
+
+],
+
+
+"taux1": [
+
+
+
+0.13761467889908258
+
+
+],
+
+
+"taux2": [
+
+
+
+0.3333333333333333
+
+
+]
+
+},
+
+{
+
+
+"site": "https://www.agence-web-lyon.fr/",
+
+
+"text1": [
+
+
+
+"Nos géniesUne nouvelle équipe de passionnés à l’origine de sa réussite :Confiance, responsabilité, action & fun ! Damien BELLEGUEULLEGérant et développeur - Jury IDRACDu côté obscure du web Stanislas VenneDeveloppeur PHPLe fou fou du code Alban DUPUPETConsultant webmarketing Le web pour tous, tous pour le web ! RémyDéveloppeur PHPLe pirate du web Sebastien ChenalWeb DesignerLe zizou du WebDesign Alexandre MONANGEAssociéToujours au poil"
+
+
+],
+
+
+"taux1": [
+
+
+
+0.12980769230769232
+
+
+],
+
+
+"taux2": [
+
+
+
+0.3333333333333333
+
+
+]
+
+},
+
+{
+
+
+"site": "https://labodeledition.wordpress.com/page/6/",
+
+
+"text1": [
+
+
+
+"La collaboration crée une véritable émulation, chacun met un point d’honneur à faire au moins aussi bien si ce n’est mieux que ses confrères. Le plus intéressant étant qu’il ne s’agit plus d’un processus continu, puisque n’importe qui peut relire et/ou corriger n’importe quelle partie ou chapitre de la création en cours. Les livres s’en trouvent ainsi d’autant plus vivants. Participer à un #libérathon, c’est appréhender de près et de façon tangible la puissance du facteur collaboratif : de l’adolescent enthousiaste à l’orthographe incertaine au retraité venu donner son temps libre pour le livre, en passant par le développeur qui apporte une expertise technique, chacun peut donner et recevoir."
+
+
+],
+
+
+"taux1": [
+
+
+
+0.1045958795562599
+
+
+],
+
+
+"taux2": [
+
+
+
+0.3333333333333333
+
+
+]
+
+},
+
+{
+
+
+"site": "https://www.trucsdeblogueuse.com/comment-creer-un-blog-professionnel/",
+
+
+"text1": [
+
+
+
+"J’ai choisi de créer un « blog gratuit », et je ne suis pas vraiment d’accord avec toi quand tu dis que « Vous ne pouvez pas personnaliser à l’infini le design ni les boutons, les bannières, le menu, etc. mais juste choisir parmi les trames proposées par la plateforme. » J’ai un blog hébergé sur blogger et je le fais. Certains hérbergeurs, bien que gratuits, laissent possibilité de crée son code source de zéro, de juste le modifier par endroits, ou de cocher des cases pour le personnaliser plus simplement. Je me suis dit que c’était important de rectifier celà :). Maintenant, je vais filer dénicher tout plein d’astuces sur ton blog 😀",
+
+
+
+"Mille mercis pour ces précieuses informations. Ce blog est génial et m’est d’une grande utilité 🙂 Je rencontre un petit problème lors de la création de ma base de données sur OVH. En effet, je ne comprends pas ce que je dois inscrire dans les champs « utilisateur » et « mot de passe ». Même si cela semble évident, j’ai rentré plein de mots de passe et essayé de trouver un nom d’utilisateur difficile à pirater mais.. rien. Impossible. Je coince à cette étape. De même, je ne comprends pas à quoi servent les codes reçus concernant « FTP » ?? Bref, c’est la galère mais on va gérer !! Bisous",
+
+
+
+"Bonjour,J’ai un domaine et hébergement chez OVH, j’ai installé le module wordpress sur ovh etc…Cela peut paraitre une question bête mais pour un site wordpress.org où dois-je me connecter pour pouvoir faire la création de mon blog et avec quels identifiants car j’ai cru comprendre que wordpress.org était un logiciel à télécharger sur son ordinateur, ce que j’ai fais…Et FileZilla dans tout cela…suis un peu perdue Réponse",
+
+
+
+"Bonsoir,Je suis en pleine création de site, cependant je rencontre un problème lorsque je veux ajouter un nouveau module, un message d’erreur m’indique que je n’ai pas de base de données crée. Et lorsque je veux en creer une, il me remplit automatiquement le nom d’utilisateur qui ne corresponds pas au mien, et donc du coup, a nouveau message d’erreur.. (Youhou)Un petit coup de main stp ?Merci 🙂Au passage, ton blog est super 🙂 Réponse",
+
+
+
+"Bonjour Mia, Merci du temps passer à nous transmettre tes connaissances. C’est un réel soulagement de trouver un blog aussi clair. Petit hic ce soir, après l’achat de mon nom de domaine et du service d’hébergement sur OVH… L’interface a changé et la création de module requiert la création de la base de données au même moment.J’ai choisi créer une base SQL 5.5… Puis j’ai validé. Et là… rien! Sur ma plateforme (DanceLikeNobodysWatching), il n’y a ni tâche en cours, ni module.Que faire? Réponse"
+
+
+],
+
+
+"taux1": [
+
+
+
+0.10934744268077601,
+
+
+
+0.1036468330134357,
+
+
+
+0.1518987341772152,
+
+
+
+0.12903225806451613,
+
+
+
+0.12416851441241686
+
+
+],
+
+
+"taux2": [
+
+
+
+0.3333333333333333,
+
+
+
+0.3333333333333333,
+
+
+
+0.3333333333333333,
+
+
+
+0.3333333333333333,
+
+
+
+0.3333333333333333
 
 
 ]
