@@ -16,7 +16,7 @@
     "express": "^4.16.4",
     "fft-js": "0.0.11",
     "jsonframe-cheerio": "^3.0.1",
-    "puppeteer": "^1.12.2",
+    "puppeteer": "^1.13.0",
     "puppeteer-core": "^1.11.0",
     "request": "^2.88.0",
     "socket.io": "^2.2.0",
