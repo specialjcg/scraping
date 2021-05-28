@@ -31,7 +31,7 @@
     "vue-socket.io": "^3.0.4",
     "vuex": "^3.0.1",
     "websocket-transport": "^1.0.1",
-    "ws": "^6.1.2",
+    "ws": "^7.4.5",
     "zombie": "^6.1.4"
   },
   "devDependencies": {
